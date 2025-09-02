@@ -1,12 +1,22 @@
-# React + Vite
+# Proyek Jadwal Mata Kuliah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah aplikasi web yang dibuat untuk menampilkan dan mengelola jadwal mata kuliah. Proyek ini dibangun menggunakan React dan Vite.
 
-Currently, two official plugins are available:
+## Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   Menampilkan daftar kelas dan jadwalnya.
+*   Formulir untuk menginput mata kuliah baru.
+*   Kemampuan untuk mengimpor data dari file Excel.
 
-## Expanding the ESLint configuration
+## Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Framework**: React 19
+*   **Build Tool**: Vite
+*   **Routing**: React Router DOM
+*   **Styling**: CSS Modules / CSS Biasa
+
+## Cara Menjalankan Proyek Secara Lokal
+
+1.  Clone repositori ini.
+2.  Install dependencies: `npm install`
+3.  Jalankan development server: `npm run dev`

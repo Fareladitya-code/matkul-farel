@@ -10,7 +10,6 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 
 export default function AppRoutes() {
   return (
-    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           {/* Arahkan halaman utama ke halaman input */}
@@ -20,7 +19,6 @@ export default function AppRoutes() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </HashRouter>
     
   );
 }
