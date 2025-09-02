@@ -1,0 +1,159 @@
+/* src/pages/DaftarKelas.css */
+
+.daftar-kelas-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.daftar-kelas-title {
+  font-size: 1.5rem; /* 2xl */
+  font-weight: 700; /* bold */
+  margin-bottom: 1.5rem; /* mb-6 */
+  color: #1f2937; /* text-gray-800 */
+}
+
+.search-container {
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem; /* px-3 py-2 */
+  background-color: #ffffff;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.375rem; /* rounded-md */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #6366f1; /* focus:border-indigo-500 */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); /* focus:ring-indigo-500 */
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.kelas-table {
+  min-width: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border: 1px solid #e5e7eb; /* border-gray-200 */
+}
+
+.kelas-table thead {
+  background-color: #f9fafb; /* bg-gray-50 */
+}
+
+.kelas-table th {
+  padding: 0.75rem 1.5rem; /* px-6 py-3 */
+  text-align: left;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 500; /* font-medium */
+  color: #6b7280; /* text-gray-500 */
+  text-transform: uppercase;
+  letter-spacing: 0.05em; /* tracking-wider */
+}
+
+.kelas-table tbody tr {
+  border-bottom: 1px solid #e5e7eb; /* divide-y divide-gray-200 */
+}
+
+.kelas-table td {
+  padding: 1rem 1.5rem; /* px-6 py-4 */
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.cell-text-main {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  color: #111827; /* text-gray-900 */
+}
+
+.cell-text-secondary {
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-gray-500 */
+}
+
+.edit-input {
+  padding: 0.25rem 0.5rem; /* px-2 py-1 */
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.375rem; /* rounded-md */
+  font-size: 0.875rem;
+}
+
+.edit-input.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-input.width-24 {
+  width: 6rem; /* w-24 */
+}
+
+.edit-input.width-16 {
+  width: 4rem; /* w-16 */
+}
+
+.kode-kelas-separator {
+  margin: 0 0.5rem; /* mx-2 */
+}
+
+.action-cell {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.action-button:not(:last-child) {
+  margin-right: 1rem; /* mr-4 */
+}
+
+.btn-edit,
+.btn-save {
+  color: #4f46e5; /* text-indigo-600 */
+}
+
+.btn-edit:hover,
+.btn-save:hover {
+  color: #312e81; /* hover:text-indigo-900 */
+}
+
+.btn-delete {
+  color: #dc2626; /* text-red-600 */
+}
+
+.btn-delete:hover {
+  color: #7f1d1d; /* hover:text-red-900 */
+}
+
+.btn-cancel {
+  color: #4b5563; /* text-gray-600 */
+}
+
+.btn-cancel:hover {
+  color: #111827; /* hover:text-gray-900 */
+}
+
+.no-data-message {
+  text-align: center;
+  color: #6b7280; /* text-gray-500 */
+  margin-top: 2rem; /* mt-8 */
+  padding: 2rem;
+}
