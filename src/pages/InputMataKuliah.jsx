@@ -23,7 +23,7 @@ const formFields = [
   { name: "programStudi", label: "Program Studi", type: "text", placeholder: "Contoh: Teknik Informatika" },
   { name: "semester", label: "Semester", type: "text", placeholder: "Contoh: 3" },
   { name: "kelas", label: "Kelas", type: "text", placeholder: "Contoh: Pagi A" },
-  { name: "kodeMatkul", label: "Kode Matakuliah", type: "text", placeholder: "Contoh: IF123" },
+  { name: "kodeMatkul", label: "Kode", type: "text", placeholder: "Contoh: IF123" },
   { name: "namaMatkul", label: "Nama Mata Kuliah", type: "text", placeholder: "Contoh: Pemrograman Web" },
   { name: "hari", label: "Hari", type: "text", placeholder: "Contoh: Senin" },
   { name: "waktu", label: "Waktu", type: "text", placeholder: "Contoh: 08:00 - 10:00" },
@@ -101,7 +101,7 @@ export default function InputMataKuliah() {
           'Program Studi': 'programStudi',
           'Semester': 'semester',
           'Kelas': 'kelas',
-          'Kode Matakuliah': 'kodeMatkul',
+          'Kode': 'kodeMatkul',
           'Nama Matakuliah': 'namaMatkul',
           'Hari': 'hari',
           'Waktu': 'waktu',
@@ -152,7 +152,7 @@ export default function InputMataKuliah() {
       <div className="file-upload-section">
         <h2 className="file-upload-title">Impor dari Excel</h2>
         <p className="file-upload-instructions">
-          Pastikan file Excel Anda memiliki header: <strong>Dosen Pengampu, Program Studi, Semester, Kelas, Kode Matakuliah, Nama Matakuliah, Hari, Waktu, Kode Ruang</strong>.
+          Pastikan file Excel Anda memiliki header: <strong>Dosen Pengampu, Program Studi, Semester, Kelas, Kode, Nama Matakuliah, Hari, Waktu, Kode Ruang</strong>.
         </p>
         <div className="file-input-wrapper">
           <label htmlFor="file-upload" className="file-input-label">
