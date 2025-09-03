@@ -5,7 +5,7 @@ import AppRoutes from "./Routes.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/matkul-farel/">
+    <BrowserRouter>
       <Suspense fallback={<p>Loading...</p>}>
         <AppRoutes />
       </Suspense>
